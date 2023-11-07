@@ -1,0 +1,138 @@
+WEBSITE CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Lab Task 01</title>
+</head>
+
+<body>
+    <div class="container-fluid text-dark">
+        <div class="">
+
+        </div>        
+        <ul class="nav text-dark">
+            <li class="nav-item mx-5">
+                <h4>PsychHelp</h4>
+            </li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#About">About</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#Contact">Contact</a></li>
+        </ul>
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=3648&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="pic"  height="700px"  width="90%" style="padding-left: 200px;">
+    </div>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h6 class="text-center">QUALIFICATION</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3 class="text-center">My Methods</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col px-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="img" width="100px">
+                <h3>Humanistic Therapy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt nulla, recusandae id cumque explicabo alias nostrum voluptatibus a. Sunt nulla sed iste unde quis odit deleniti commodi expedita! Modi?</p>
+            </div>
+            <div class="col px-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="" width="100px">
+                <h3>Humanistic Therapy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt nulla, recusandae id cumque explicabo alias nostrum voluptatibus a. Sunt nulla sed iste unde quis odit deleniti commodi expedita! Modi?</p>
+            </div>
+            <div class="col px-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="" width="100px">
+                <h3>Humanistic Therapy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt nulla, recusandae id cumque explicabo alias nostrum voluptatibus a. Sunt nulla sed iste unde quis odit deleniti commodi expedita! Modi?</p>
+            </div>
+            <div class="col px-2">
+                <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="" width="100px">
+                <h3>Humanistic Therapy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt nulla, recusandae id cumque explicabo alias nostrum voluptatibus a. Sunt nulla sed iste unde quis odit deleniti commodi expedita! Modi?</p>
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="container-fluid mt-5 bg-secondary bg-opacity-25">
+    <div class="row">
+        <div class="col">
+           <center><img class="" src="task1pic1.webp" alt="" height="100%" </center> 
+        </div>
+        <div class="col">
+            <img src="data:image/jpeg;base64,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" alt=""  style="padding-right: 1500px;"  height="500px">
+            <h1 class="text-center" style="padding-left: 900px;">Individual</h1>
+            <h1 class="text-center mt-2" style="padding-left: 900px;">Therapy</h1>
+            <h4 class="text-center mt-2" style="padding-bottom: 100px; padding-left: 900px">Individual psychotherapy helps you to learn <br>about yourself. we work through behavioral , communicational, <br> thought and relational pattern </h4>
+            <h1 class="text-center mt-3" style="padding-left: 900px;">$ 30 Per Hour </h1>
+            
+        </div>
+    </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col mt-5 text-center">
+                <h6>TESTIMONALS</h6>
+                <h1>Happy clients</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3>Doloress K.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime consectetur debitis voluptatum illum porro impedit pariatur distinctio ad temporibus itaque maiores mollitia, tempore architecto quasi quia corporis laborum magni aliquam.</p>
+            </div>
+            <div class="col ">
+                <h3>Antonomy M.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tenetur sit cumque architecto, est laborum quisquam illum velit nulla, omnis saepe qui aliquid nisi, blanditiis delectus ab quis cum. Sint.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+JAVA SCRIPTl:
+function isValidEmail(email) {
+  // Regular expression for matching a valid email address
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+  // Use the test() method to check if the email matches the pattern
+  return emailPattern.test(email);
+}
+
+// Example usage:
+const email = "example@email.com";
+if (isValidEmail(email)) {
+  console.log(`"${email}" is a valid email address.`);
+} else {
+  console.log(`"${email}" is not a valid email address.`);
+}
+
