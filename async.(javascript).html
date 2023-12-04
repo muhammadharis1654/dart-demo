@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asynchronous javascript</title>
+</head>
+
+<body>
+
+    <div style="height: 50px; width: 50px; background-color: azure; color: darkblue;"></div>
+<!-- <h1>REAL MADRID</h1> -->
+
+<!-- <div class="main" style="height: 100px; width: 500px; background-color: aqua; border-radius: 100px; text-align: center; font-size: xx-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 20px;">DISCOUNT 50% OFF</div> -->
+<button id="stop">stop</button>    
+
+
+<button id="start">start</button>
+
+
+
+</body>
+
+<script>
+
+
+const random=(Math.floor(Math.random()*12))
+
+
+document.querySelector("div").innerHTML=random
+document.body.style.backgroundColor="red"
+
+
+// //here we are gonna discuss some async and set time out functions
+// //changing the content of h1 by set time out function
+// // const change=function(){
+// //     document.querySelector('h1').innerHTML="ronaldo the best"
+// // }
+// // setTimeout(change,2000);
+
+
+// const div=function(){
+//     document.querySelector('div').innerHTML="NO DISCOUNT GET LOST"
+// }
+
+
+// const stop=setTimeout(div,5000)
+
+// //clearTimeout(stop) //no settime out  will be called so...
+
+
+
+// //now here it will only execute when it is clicked
+// document.querySelector('#stop').addEventListener('click',function(){
+//     clearTimeout(stop)
+// })
+
+
+//set interval function 
+
+
+//unlimited colors project
+
+
+
+
+</script>
+</html>
